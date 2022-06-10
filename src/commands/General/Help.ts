@@ -50,7 +50,7 @@ export default class Command extends BaseCommand {
 ┌────────────┈❀
 │  ゼロツー❤️
 └────────────┈❀
-📒 *Note: Use ${this.client.config.prefix}help <command_name> to view the command info*`, contextInfo : {externalAdReply : {title : 'ZeroTwo', body : 'Bot By Toshiro', thumbnail : buffer }} }
+📒 *Note: Use ${this.client.config.prefix}help <command_name> to view the command info*`,
         )
     }
 }
