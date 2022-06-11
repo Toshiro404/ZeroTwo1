@@ -48,7 +48,7 @@ export default class Command extends BaseCommand {
         user.split("@")[0]
       }*, I'm _*${this.client.user.name}*_ And I'm here to make your WhatsApp enjoyable and.\n\nMy prefix is - "${
         this.client.config.prefix
-      }"\n\nThe usable commands are listed below.\n\n`;
+      }"\n\n📫The usable commands are listed below📫.\n\n`;
       const keys = Object.keys(categories);
       for (const key of keys)
         text += `*━━━❰ ${this.client.util.capitalize(
