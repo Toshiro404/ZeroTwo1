@@ -304,7 +304,7 @@ export default class MessageHandler {
   };
 
   handleState = async (): Promise<void> => {
-    const text = `reconnected...🚀
+    const text = `I'm now active! 🚀
     `;
     await this.client.sendMessage(
       "120363023021814163@g.us",
