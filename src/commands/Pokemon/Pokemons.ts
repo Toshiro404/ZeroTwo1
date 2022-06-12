@@ -28,14 +28,14 @@ export default class Command extends BaseCommand {
     if (data.length < 1)
       return void M.reply(`You haven't caught any pokemon yet.`);
     let text = `*${username}'s Pokemons*\n\n`;
-    text += `💠 *Total Pokemons: ${data.length}*\n\n`;
+    text += `🧧 *Total Pokemons: ${data.length}*\n\n`;
     for (let i = 0; i < data.length; i++) {
-      text += `*#${i + 1} ${this.client.util.capitalize(data[i])}*\n`;
+      text += `*🏮${i + 1} ${this.client.util.capitalize(data[i])}*\n`;
     }
     const buttons = [
       {
-        buttonId: "party",
-        buttonText: { displayText: `${this.client.config.prefix}party` },
+        buttonId: "dex",
+        buttonText: { displayText: `${this.client.config.prefix}dex` },
         type: 1,
       },
       {
