@@ -47,8 +47,8 @@ export default class Command extends BaseCommand {
     const gold = Math.floor(Math.random() * (250 - 100) + 100);
     const buttons = [
       {
-        buttonId: "party",
-        buttonText: { displayText: `${this.client.config.prefix}party` },
+        buttonId: "dex",
+        buttonText: { displayText: `${this.client.config.prefix}dex` },
         type: 1,
       },
       {
