@@ -314,7 +314,7 @@ export default class MessageHandler {
   };
 
   sendReconnectMessage = async (): Promise<void> => {
-    const text = `I'm now active! 🚀`;
+    const text = `ZeroTwo is now activated! 🚀`;
     await this.client.sendMessage(
       "120363023021814163@g.us",
       text,
