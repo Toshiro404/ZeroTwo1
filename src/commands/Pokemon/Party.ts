@@ -11,7 +11,7 @@ export default class Command extends BaseCommand {
       aliases: ["party"],
       description: "Will display user's pokemon party",
       category: "pokemon",
-      usage: `${client.config.prefix}party`,
+      usage: `${client.config.prefix}dex`,
       baseXp: 10,
     });
   }
@@ -26,12 +26,12 @@ export default class Command extends BaseCommand {
         contact.notify || contact.vname || contact.name || user.split("@")[0];
     }
     if (data.length < 1)
-      return void M.reply(`You don't have any pokemon in your party.`);
-    let text = `*🪄 ${username}'s Party*\n\n`;
+      return void M.reply(`You don't have any pokemon in your dex.`);
+    let text = `*🧧 ${username}'s pokedex*\n\n`;
     for (let i = 0; i < data.length; i++) {
-      text += `*❄️${i + 1} 🎫 Name: ${this.client.util.capitalize(
+      text += `*🎉${i + 1} 🎫 Name: ${this.client.util.capitalize(
         data[i].name
-      )}*\n\t\t📱 *Pokedex Id: ${data[i].id}*\n\t\t💠 *Level: ${
+      )}*\n\t\t🏮 *Pokedex Id: ${data[i].id}*\n\t\t⭐ *Level: ${
         data[i].level
       }*\n\n`;
     }
