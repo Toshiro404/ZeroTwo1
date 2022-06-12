@@ -7,9 +7,9 @@ import { ISimplifiedMessage } from "../../typings";
 export default class Command extends BaseCommand {
   constructor(client: WAClient, handler: MessageHandler) {
     super(client, handler, {
-      command: "party",
-      aliases: ["party"],
-      description: "Will display user's pokemon party",
+      command: "dex",
+      aliases: ["dex"],
+      description: "Will display user's pokemon dex",
       category: "pokemon",
       usage: `${client.config.prefix}dex`,
       baseXp: 10,
