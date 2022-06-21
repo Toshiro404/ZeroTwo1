@@ -30,9 +30,9 @@ export default class Command extends BaseCommand {
 
 🔰 If you facing any problem with bot then type ${this.client.config.prefix}owner to contact owner!
 
-🧧 Prefix: ${this.client.config.prefix}
-🎐 Developer: Toshiro
-⚡ Owner: wa.me/+919609900020
+⭐ Prefix: ${this.client.config.prefix}
+🎐 Developer: Toshiro-sama x chey-san
+💠 Owner: wa.me/+919609900020
 
 〘 𝑪𝑶𝑴𝑴𝑨𝑵𝑫 𝑳𝑰𝑺𝑻 〙
 ────────────────
